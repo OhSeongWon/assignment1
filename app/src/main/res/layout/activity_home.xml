@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+    <TextView
+        android:id="@+id/tv_realName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_name"
+        app:layout_constraintStart_toEndOf="@+id/tv_name"
+        app:layout_constraintTop_toTopOf="@+id/tv_name" />
+
+    <TextView
+        android:id="@+id/tv_realName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="ISFP"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_name4"
+        app:layout_constraintStart_toEndOf="@+id/tv_name4"
+        app:layout_constraintTop_toTopOf="@+id/tv_name4" />
+
+    <TextView
+        android:id="@+id/tv_realName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="20"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_name3"
+        app:layout_constraintStart_toEndOf="@+id/tv_name3"
+        app:layout_constraintTop_toTopOf="@+id/tv_name3" />
+
+    <TextView
+        android:id="@+id/tv_name4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="MBTI :"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_name3"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name3" />
+
+    <TextView
+        android:id="@+id/tv_name3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="나이 :"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_name2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name2" />
+
+    <TextView
+        android:id="@+id/tv_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="이름 :"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="70dp"
+        android:text="아이디 :"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_smile" />
+
+    <TextView
+        android:id="@+id/tv_realName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="오성원"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_name2"
+        app:layout_constraintStart_toEndOf="@+id/tv_name2"
+        app:layout_constraintTop_toTopOf="@+id/tv_name2" />
+
+    <ImageView
+        android:id="@+id/ic_smile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_1" />
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="종료"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
